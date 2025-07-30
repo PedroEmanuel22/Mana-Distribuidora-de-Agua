@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Arquivos_css/pedido.css">
+    <title>Pedido</title>
+</head>
+<body>
+    <ul class="caminhos">
+        <li><a href="principal.html" class="inicio">Início</a></li>
+        <li><a href="sobre.html" class="sobre">Sobre</a></li>
+        <li><a href="contato.html" class="contato">Contato</a></li>
+    </ul>
+    <div class="linha-vertical"></div>
+    <hr>
+    <div class="linha-vertical2"></div>
+    <form action="../Arquivos_html/dados_recebidos.html" method="get" class="formulario">
+        <fieldset>
+            <div class="itens">
+                <div>
+                    <label class="name">Seu Nome:</label>
+                    <input class="nome" type="text" class="first-name">
+                </div>
+                <br><br>
+                <div>
+                    <label class="date">Data do Pedido:</label>
+                    <input type="date" class="data">
+                </div>
+                <br><br>
+                <div>
+                    <label class="quantidad">Quantidade de garrafões:</label>
+                    <input type="number" class="quantidade">
+                </div>
+                <br><br>
+                <div>
+                    <label class="pay">Forma de Pagamento:</label>
+                </div>
+                <br>
+                <div class="pagamento">
+                    <input type="radio" name="Pagamento" value="PIX" class="pagar">
+                    <label class="pay">PIX</label>
+                    <input type="radio" name="Pagamento" value="Dinheiro" class="pagar">
+                    <label class="pay">Dinheiro</label>
+                </div>
+            </div>
+                <input type="submit" name="Enviar" value="Enviar" class="botao">
+                <input type="reset" name="Limpar" value="Limpar" class="botao2">
+        </fieldset>
+    </form>
+    <img src="../imagens/logo.png" alt="logo" class="logo">
+</body>
+</body>
+</html>
